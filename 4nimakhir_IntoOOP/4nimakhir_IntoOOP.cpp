@@ -10,9 +10,9 @@ class mahasiswa
 
         void output()
         {
-            cout << "Nama : " << nama << endl;
-            cout << "Umur : " << umur << endl;
-            cout << "Jrusan : " << jurusan << endl;
+            cout << "Nama: " << nama << endl;
+            cout << "Umur: " << umur << endl;
+            cout << "Jrusan: " << jurusan << endl;
         }
 };
 
@@ -23,7 +23,15 @@ class Matakuliah
         string namaMK;
         int sks;
     public:
-
+        void input()
+        {
+            cout << "KodeMk: ";
+            cin >> kodeMK;
+            cout << "NamaMK: ";
+            cin >> namaMK;
+            cout << "SKS: ";
+            cin >> sks;
+        }
 };
 int main()
 {
