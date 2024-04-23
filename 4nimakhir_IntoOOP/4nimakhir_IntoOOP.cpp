@@ -10,7 +10,9 @@ class mahasiswa
 
         void output()
         {
-
+            cout << "Nama : " << nama << endl;
+            cout << "Umur : " << umur << endl;
+            cout << "Jrusan : " << jurusan << endl;
         }
 };
 int main()
