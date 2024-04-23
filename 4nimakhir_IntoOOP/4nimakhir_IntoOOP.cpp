@@ -39,7 +39,19 @@ class Matakuliah
             cout << "SKS: " << sks << endl;
         }
 };
+
 int main()
 {
-    
+    mahasiswa mhs;
+    Matakuliah mk;
+
+    mhs.nama = "Budi";
+    mhs.umur = 20;
+    mhs.jurusan = "Teknik informatika";
+    mhs.output();
+
+    mk.input();
+    mk.output();
+
+    return 0;
 }
